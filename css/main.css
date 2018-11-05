@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: red;
+    text-decoration: underline;
+}
+
+.main {
+    font-size: 2rem;
+}
+
+#max {
+    height: 30px;
+    width: 10%;
+    font-size: 1.5rem;
+}
+
+.page {
+    display: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+.active {
+    display: block;
+}
+
+#btnBack {
+    font-size: 1rem;
+    width 80%;
+    height: 80px;
+}
+
+#btnSend {
+    font-size: 1rem;
+    height: 80px;
+}
+
+#digits {
+    height: 30px;
+    width: 10%;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width: 868px) {
+    .num_list {
+        height:410px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        font-size: 4rem;
+    }
+
+    #btnBack {
+        font-size: 1rem;
+        width 80%;
+        height: 80px;
+    }
+
+    #btnSend {
+        font-size: 1rem;
+        height: 80px;
+    }
+
+    li {
+        font-size: 4rem;
+        width: 110px;
+        border: 4px solid blue;
+        align-self: center;
+    }
+
+
+}
+
+
+
+@media (min-width: 869px) and (max-width:1249px) {
+
+    h1{
+        font-size: 3rem;
+    }
+    .num_list {
+        height:410px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        list-style-type: none;
+        font-size: 4rem;
+    }
+
+    li {
+        font-size: 6rem;
+        width: 110px;
+        border: 4px solid blue;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+}
+@media (min-width: 1250px) {
+
+    .num_list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        font-size: 4rem;
+    }
+
+    li {
+        font-size: 6rem;
+        width: 110px;
+        border: 4px solid blue;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+
+}
